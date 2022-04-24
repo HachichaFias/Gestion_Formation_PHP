@@ -45,8 +45,7 @@ CREATE TABLE `formation` (
 -- Déchargement des données de la table `formation`
 --
 
-INSERT INTO `formation` (`id`, `intitule`, `formateur`, `description`, `date`, `nbPlace`, `nbReservation`, `prix`, `score`, `nbScore`) VALUES
-('1', 'JAVA', 'FIRASHACHICHA', 'java for Beginner', '2021-06-06', 4, 4, 200, 4, 1);
+
 
 -- --------------------------------------------------------
 
@@ -65,13 +64,7 @@ CREATE TABLE `reservation` (
 -- Déchargement des données de la table `reservation`
 --
 
-INSERT INTO `reservation` (`id`, `etat`, `login`, `id_formation`) VALUES
-('1', '1', 'firas', '1'),
-('2', '1', 'AnisHachicha', '1'),
-('3', '1', 'SemiaDalhoum', '1'),
-('4', '1', 'HanaHachicha', '1'),
-('5', '0', 'AidaMaalej', '1'),
-('6', '0', 'SemiaDalhoum', '2');
+
 
 -- --------------------------------------------------------
 
@@ -93,11 +86,7 @@ CREATE TABLE `utilisateur` (
 -- Déchargement des données de la table `utilisateur`
 --
 
-INSERT INTO `utilisateur` (`login`, `password`, `nom`, `cin`, `date_naiss`, `email`, `role`) VALUES
-('admin', 'admin', 'firas', '11324322', '2000-05-02', 'mail', b'1'),
-('firas', 'a', 'firas', '12313', '2000-04-27', 'firas.hachicha2@gmail.com', b'0'),
-('AnisHachicha', 'aaaaaaaa', 'Anis', '12313', '2021-04-28', 'anis@gmail.com', b'0'),
-('dz', 'aaaaaaaa', 'hui hui', 'ac', '2021-05-05', 'firas.hachicha2@gmail.com', b'0');
+
 
 --
 -- Index pour les tables déchargées
